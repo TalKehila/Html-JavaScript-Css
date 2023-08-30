@@ -1,0 +1,26 @@
+# Compiled output
+/dist/
+/out/
+/build/
+
+# Dependency folders
+/node_modules/
+/bower_components/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+Thumbs.db

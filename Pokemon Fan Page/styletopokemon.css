@@ -1,0 +1,210 @@
+body {
+  /* background-image: url("./images/wallpaper.jpeg"); */
+  background: linear-gradient(45deg, rgb(198, 35, 206), rgb(14, 124, 111));
+  /* background-repeat: n; */
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  height: 200vh;
+  margin: 0;
+
+}
+#changephotos{
+  width: 100px;
+  height: 100px;
+  background-image: url("./images/dark.jpeg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   right : 100px;
+   top : 10px;
+   position: absolute;
+   /* background-attachment:fixed;  */
+ 
+}
+main {
+  width: min(70rem, 100% - 4rem);
+  margin: 0 auto;
+  /* outline: 5px solid; */
+}
+.pokemons-type{
+display :inline-block;
+position: relative;
+}
+.pokemons-type table {
+  position: absolute;
+  top:100%;
+  left :0;
+  /* background-color: white ; */
+  border: 4px solod black;
+}
+/* .resizable{
+  resize: both;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  background-color:chocolate  ;
+  color:black;
+  display: grid;
+  place-items: center;
+font-size: 24px;
+} */
+
+h1 {
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.main-header {
+  font-family: Georgia;
+  font-size: 2em;
+  color: white;
+  text-shadow: 3px 3px 0 red, -3px -3px 0 blue;
+}
+
+dialog {
+  width: 30ch;
+  border-radius: 10px;
+}
+dialog::backdrop {
+  background-color: #0008;
+}
+
+/* section {
+  min-height: 100vh;
+} */
+
+.subTitle {
+  /* text-align: center; */
+  /* outline: 3px solid; */
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: space-between ; */
+}
+
+/* image table  */
+.pokemons-type tr > :nth-child(2) {
+  color: red;
+}
+
+.con {
+  position: fixed;
+  bottom: 0;
+  padding: 1em;
+  box-shadow: -5px 0 10px black;
+  width: 100%;
+}
+
+.table-types {
+  text-align: center;
+}
+
+.pokemons-type summary {
+  color: rgb(0, 255, 13);
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  gap: 1em;
+}
+
+@media (max-width: 35rem) {
+  .flex {
+    grid-template-columns: 1fr;
+  }
+}
+
+.regi-container {
+  border: 1px;
+  min-width: auto;
+  color: blueviolet;
+  /* position: absolute; */
+  /* top: 20%;
+  left: 90%; */
+  /* transform: translate(-50%, -50%); */
+  min-width: auto;
+  min-height: auto;
+  font-weight: bold;
+}
+
+/* .btn {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+} */
+
+.em {
+  border-radius: 5px;
+}
+
+.myForm label {
+  display: grid;
+}
+/*  
+  :root {
+      font-size: 16px;
+      font-family: sans-serif;
+  }
+
+   span {
+            display: block;
+        }
+
+        div {
+            margin-block: 1em;
+        } 
+
+  .myForm {
+      width: min(30ch, 100% - 4rem);
+      border: 5px solid;
+      padding: 1rem;
+      margin: 1rem;
+  }
+
+  .myForm label {
+      display: grid;
+      gap: .5em;
+  }
+
+  .root {
+      font-size: 2rem;
+      border: 4px dotted green;
+      white-space: pre;
+  }
+
+  button {
+      border: 2px solid;
+      border-radius: 20px;
+      padding: .5em;
+
+  }
+
+  button:hover {
+      background-color: green;
+      color: white;
+  }   */
+
+.box {
+  /* width: 100px;
+  height: 100px; */
+  /* background-color: blue; */
+  border: 2px solid white;
+  /* position: relative; */
+  position: absolute;
+  top: -50px;
+  /* bottom: 0; */
+  left: 0;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 1;
+}
+
+.wrapper {
+  position: relative;
+}
